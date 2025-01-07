@@ -1,0 +1,709 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #333;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 10px;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar input#menu-toggler {
+  display: none;
+}
+
+.navbar #hamburger-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.navbar .all-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .all-links li {
+  position: relative;
+  list-style: none;
+}
+
+.navbar .logo a {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+header a, footer a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  padding: 20px 0;
+  display: inline-block;
+}
+
+header a:hover, footer a:hover {
+  color: #ddd;
+}
+
+
+.paginaInicio {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: url("../images/fondo2.png");
+  background-position: center 65%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0 0;
+}
+
+.paginaInicio::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.paginaInicio .content {
+  display: flex;
+  height: 85%;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paginaInicio .content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.paginaInicio .content .text {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.content a {
+  color: #000;
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: 2px solid #fff;
+  transition: 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.3);
+}
+
+
+.banner {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s;
+}
+
+.slide {
+  text-align: center;
+  padding: 60px;
+}
+
+.nav-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.util {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.util.clicked {
+  background-color: #969696;
+}
+.slide img {
+  width: 220px; 
+  height: 330px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 677px;
+}
+
+
+a {
+  text-decoration: none; 
+  color: #000; 
+}
+
+.datos{
+  padding-left: 50px;
+}
+
+
+
+.movie {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  display: flex; 
+  transition: transform 0.2s;
+}
+.movie:hover {
+  transform: scale(1.03);
+}
+
+.movie img {
+  width: 100px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+
+
+.movie h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.movie p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+.movie span{
+  font-size: 15px;
+  margin: 10px 0;
+  color: #f1c40f;
+}
+
+.movie span::after {
+  content: '★';
+}
+
+#movie-details {
+  width: 70%;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.actorimg {
+  width: 280px;
+  height: 420px;
+  margin-right: 50px;
+  border-radius: 3%;
+}
+
+.usuarioimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.usuarioimg2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.fecha {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.usuarionombrefoto{
+  text-align: center;
+  
+}
+
+.peliimg {
+  width: 290px;
+  height: 435px;
+  
+}
+.movie-title {
+  color: #44546A;
+  margin-top: 0;
+}
+.movie-details p {
+  color: #333;
+  margin-bottom: 10px;
+}
+.movie-details strong {
+  font-weight: bold;
+}
+.movie-details .description {
+  border-bottom: 1px solid #ccc; /* Línea divisoria */
+  padding-bottom: 10px; /* Espacio entre las líneas */
+  margin-bottom: 10px; 
+}
+/* Simulación de estrellas para calificación */
+.movie-details .rating {
+  color: #f1c40f; /* Amarillo */
+}
+.movie-details .rating::before {
+  content: '★';
+  letter-spacing: 3px;
+}
+.multimedia {
+  display: flex;
+  flex-direction: row; /* Puedes mantener "row" si quieres distribuir horizontalmente */
+  justify-content: space-between;
+}
+.multimedia2 {
+  display: flex;
+}
+
+
+
+
+
+.info {
+  border-bottom: 1px solid #ccc; /* Línea divisoria */
+  padding-bottom: 15px; /* Espacio entre las líneas */
+  margin-bottom: 15px; /* Espacio entre cada sección */
+}
+
+
+#cEstrellas1 {
+  color: black;
+  font-size: 16px;
+  color: gold;
+  position: relative;
+  top: 4px;
+}
+
+#pantallaFlotante1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#miBoton1 {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 30px;
+  padding-top: 5px;
+  margin-left: 0;
+}
+
+
+
+
+
+#estrellas1 {
+  font-size: 20px;
+}
+
+.estrella {
+  cursor: pointer;
+}
+
+.estrella:hover {
+  color: gold;
+}
+
+.estrella:hover~.estrella {
+  color: inherit;
+}
+
+.estrella.hover-previous {
+  color: gold;
+}
+
+.actores {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ccc; /* Línea divisoria */
+  margin-bottom: 15px; /* Espacio entre cada sección */
+}
+
+.actor {
+  width: 25%; /* Cada fila contiene 4 actores, por lo que el ancho es el 25% */
+  text-align: center; /* Centra el contenido */
+  box-sizing: border-box; /* Asegura que el espaciado se incluya en el ancho asignado */
+  padding: 10px; /* Agrega espaciado alrededor de cada actor */
+}
+
+
+.actor img {
+  width: 150px; /* Ancho específico para la imagen */
+  height: 225px; /* Alto específico para la imagen */
+  display: block;
+  margin: 0 auto; 
+  border-radius: 3%;
+}
+
+.actor p {
+  margin-top: 5px; 
+}
+
+
+.serpels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serpel {
+  width: 25%; /* Cada fila contiene 4 actores, por lo que el ancho es el 25% */
+  text-align: center; /* Centra el contenido */
+  box-sizing: border-box; 
+  padding: 10px; 
+}
+
+.serpel img {
+  width: 138px; 
+  height: 207px;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 3%;
+}
+
+.serpel p {
+  margin-top: 5px; 
+}
+.datos_actor {
+  width: 1000px;
+}
+
+.celebridades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.celebridad {
+  width: 266px;
+  text-align: center; /* Centra el contenido */
+  box-sizing: border-box; /* Asegura que el espaciado se incluya en el ancho asignado */
+  padding: 15px; /* Agrega espaciado alrededor de cada actor */
+}
+
+.celebridad img {
+  width: 140px; /* Ancho específico para la imagen */
+  height: 210px; /* Alto específico para la imagen */
+  display: block;
+  margin: 0 auto; 
+  border-radius: 50%;
+}
+
+.celebridad p {
+  margin-top: 5px; 
+}
+
+
+
+.search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  width: 46%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.search button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el select personalizado */
+.filtro {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo cuando el select está enfocado */
+.filtro:focus {
+  border-color: #666;
+}
+.filtro option:hover {
+  background-color: #333;
+}
+
+
+#resenias_usuarios {
+  /* Estilos para el contenedor de las reseñas de usuarios */
+  margin-top: 20px; /* Espacio superior */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 3%;
+}
+
+#resenia_form {
+  /* Estilos para el formulario de reseñas */
+  margin-top: 20px; /* Espacio superior */
+}
+
+
+.formulario-resenia #resenia_texto {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+
+
+.textoComentario {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.formulario-resenia input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario-resenia input[type="submit"]:hover {
+  background-color: #000000;
+}
+p.adfav {
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+
+.corazon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+
+}
+.corazonfav {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+
+}
+
+.corazon i {
+  color: black;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.corazon.clicked i {
+  color: red;
+}
+.corazonfav i {
+  color: red;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.corazonfav.clicked i {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  padding: 20px 0;
+}
+
+
+
+footer span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 860px) {
+  .navbar .all-links {
+    position: fixed;
+    left: -100%;
+    width: 300px;
+    display: block;
+    height: 100vh;
+    top: 75px;
+    background: #333;
+    transition: left 0.3s ease;
+  }
+
+  .navbar #menu-toggler:checked~.all-links {
+    left: 0;
+  }
+
+  .navbar .all-links li {
+    font-size: 18px;
+  }
+
+  .navbar #hamburger-btn {
+    display: block;
+  }
+
+  section > p {
+    text-align: center;
+  }
+
+  section .cards .card {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+  }
+
+  .paginaInicio .content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .paginaInicio .content .text {
+    font-size: 17px;
+  }
+
+  .content a {
+    font-size: 17px;
+    padding: 9px 20px;
+  }
+
+  .contact .row {
+    flex-direction: column;
+  }
+
+  .contact .row .col {
+    width: 100%;
+  }
+
+  .contact .row .col:last-child {
+    margin-top: 40px;
+  }
+
+  footer a {
+    height: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  section .cards .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

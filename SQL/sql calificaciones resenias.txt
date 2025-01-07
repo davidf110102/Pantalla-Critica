@@ -1,0 +1,63 @@
+INSERT INTO calificaciones_peliculas (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    1 AS usuario_id_per,
+    pelicula_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM peliculas;
+
+INSERT INTO calificaciones_peliculas (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    2 AS usuario_id_per,
+    pelicula_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM peliculas;
+
+INSERT INTO calificaciones_peliculas (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    3 AS usuario_id_per,
+    pelicula_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM peliculas;
+
+INSERT INTO calificaciones_peliculas (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    4 AS usuario_id_per,
+    pelicula_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM peliculas;
+
+INSERT INTO calificaciones_series (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    1 AS usuario_id_per,
+    serie_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM series;
+
+INSERT INTO calificaciones_series (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    2 AS usuario_id_per,
+    serie_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM series;
+
+INSERT INTO calificaciones_series (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    3 AS usuario_id_per,
+    serie_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM series;
+
+INSERT INTO calificaciones_series (usuario_id_per, audiovisual_id_per, puntuacion, fecha)
+SELECT
+    4 AS usuario_id_per,
+    serie_id AS audiovisual_id_per,
+    calificacion AS puntuacion,
+    CURDATE() AS fecha
+FROM series;

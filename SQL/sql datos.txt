@@ -1,0 +1,16 @@
+SELECT genero_individual, COUNT(*) AS repeticiones
+FROM (
+    SELECT TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(genero, ' - ', n), ' - ', -1)) AS genero_individual
+    FROM series
+    JOIN (
+        SELECT 1 n UNION ALL
+        SELECT 2 UNION ALL
+        SELECT 3 UNION ALL
+        SELECT 4 UNION ALL
+        SELECT 5 UNION ALL
+        SELECT 6 UNION ALL
+        SELECT 7  -- Ajusta este número al máximo esperado de palabras en una celda
+    ) nums ON CHAR_LENGTH(genero) - CHAR_LENGTH(REPLACE(genero, ' - ', '')) >= n - 1
+) AS palabras_unicas
+GROUP BY genero_individual
+ORDER BY COUNT(*) DESC;

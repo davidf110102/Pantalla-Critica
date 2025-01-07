@@ -1,0 +1,711 @@
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- Cadena perpetua (pelicula_id: 1)
+    (1, 'Tim Robbins', '1958-10-16', 'California', 175),
+    (2, 'Morgan Freeman', '1937-06-01', 'Tennessee', 188),
+    (3, 'Bob Gunton', '1945-11-15', 'California', 183),
+    (4, 'William Sadler', '1950-04-13', 'Nueva York', 175),
+
+    -- El padrino (pelicula_id: 2)
+    (5, 'Marlon Brando', '1924-04-03', 'Nebraska', 175),
+    (6, 'Al Pacino', '1940-04-25', 'Nueva York', 170),
+    (7, 'James Caan', '1940-03-26', 'Nueva York', 175),
+    (8, 'Robert Duvall', '1931-01-05', 'California', 175),
+
+    -- El caballero oscuro (pelicula_id: 3)
+    (9, 'Christian Bale', '1974-01-30', 'Gales', 183),
+    (10, 'Heath Ledger', '1979-04-04', 'Australia', 185),
+    (11, 'Aaron Eckhart', '1968-03-12', 'California', 183),
+    (12, 'Michael Caine', '1933-03-14', 'Reino Unido', 188),
+
+    -- El padrino (parte II) (pelicula_id: 4)
+    (13, 'Al Pacino', '1940-04-25', 'Nueva York', 170),
+    (14, 'Robert De Niro', '1943-08-17', 'Nueva York', 178),
+    (15, 'Diane Keaton', '1946-01-05', 'California', 168),
+    (16, 'Robert Duvall', '1931-01-05', 'California', 175),
+
+    -- La lista de Schindler (pelicula_id: 5)
+    (17, 'Liam Neeson', '1952-06-07', 'Irlanda del Norte', 193),
+    (18, 'Ben Kingsley', '1943-12-31', 'Inglaterra', 173),
+    (19, 'Ralph Fiennes', '1962-12-22', 'Inglaterra', 180),
+    (20, 'Caroline Goodall', '1959-11-13', 'Reino Unido', 170),
+
+    -- El señor de los anillos: El retorno del rey (pelicula_id: 6)
+    (21, 'Elijah Wood', '1981-01-28', 'Iowa', 168),
+    (22, 'Viggo Mortensen', '1958-10-20', 'Nueva York', 180),
+    (23, 'Ian McKellen', '1939-05-25', 'Inglaterra', 180),
+    (24, 'Orlando Bloom', '1977-01-13', 'Inglaterra', 180),
+
+    -- Pulp Fiction (pelicula_id: 7)
+    (25, 'John Travolta', '1954-02-18', 'Nueva Jersey', 188),
+    (26, 'Uma Thurman', '1970-04-29', 'Massachusetts', 168),
+    (27, 'Samuel L. Jackson', '1948-12-21', 'Washington D.C.', 188),
+    (28, 'Bruce Willis', '1955-03-19', 'Alemania', 183),
+
+    -- El señor de los anillos: La comunidad del anillo (pelicula_id: 8)
+    (29, 'Sean Astin', '1971-02-25', 'California', 168),
+    (30, 'Sean Bean', '1959-04-17', 'Inglaterra', 178),
+    (31, 'Christopher Lee', '1922-05-27', 'Inglaterra', 196),
+    (32, 'Liv Tyler', '1977-07-01', 'Nueva York', 178),
+
+    -- El bueno, el feo y el malo (pelicula_id: 9)
+    (33, 'Clint Eastwood', '1930-05-31', 'California', 193),
+    (34, 'Lee Van Cleef', '1925-01-09', 'Nueva Jersey', 183),
+    (35, 'Eli Wallach', '1915-12-07', 'Nueva York', 178),
+    (36, 'Aldo Giuffrè', '1924-04-10', 'Italia', 176),
+
+    -- Forrest Gump (pelicula_id: 10)
+    (37, 'Tom Hanks', '1956-07-09', 'California', 183),
+    (38, 'Robin Wright', '1966-04-08', 'Texas', 168),
+    (39, 'Gary Sinise', '1955-03-17', 'Illinois', 175),
+    (40, 'Sally Field', '1946-11-06', 'California', 160),
+
+    -- El club de la lucha (pelicula_id: 11)
+    (41, 'Brad Pitt', '1963-12-18', 'Oklahoma', 180),
+    (42, 'Edward Norton', '1969-08-18', 'Maryland', 183),
+    (43, 'Helena Bonham Carter', '1966-05-26', 'Londres', 157),
+    (44, 'Meat Loaf', '1947-09-27', 'Texas', 180),
+
+    -- El señor de los anillos: Las dos torres (pelicula_id: 12)
+    (45, 'Bernard Hill', '1944-12-17', 'Inglaterra', 180),
+    (46, 'Miranda Otto', '1967-12-16', 'Australia', 164),
+    (47, 'David Wenham', '1965-09-21', 'Australia', 183),
+    (48, 'Karl Urban', '1972-06-07', 'Nueva Zelanda', 185),
+
+    -- Origen (pelicula_id: 13)
+    (49, 'Leonardo DiCaprio', '1974-11-11', 'California', 183),
+    (50, 'Joseph Gordon-Levitt', '1981-02-17', 'California', 176),
+    (51, 'Elliot Page', '1987-02-21', 'Canadá', 155),
+    (52, 'Tom Hardy', '1977-09-15', 'Inglaterra', 175),
+
+    -- El imperio contraataca (pelicula_id: 14)
+    (53, 'Mark Hamill', '1951-09-25', 'California', 173),
+    (54, 'Harrison Ford', '1942-07-13', 'Illinois', 185),
+    (55, 'Carrie Fisher', '1956-10-21', 'California', 155),
+    (56, 'Billy Dee Williams', '1937-04-06', 'Nueva York', 182),
+
+    -- Matrix (pelicula_id: 15)
+    (57, 'Keanu Reeves', '1964-09-02', 'Líbano', 186),
+    (58, 'Carrie-Anne Moss', '1967-08-21', 'Canadá', 174),
+    (59, 'Laurence Fishburne', '1961-07-30', 'Georgia', 183),
+    (60, 'Hugo Weaving', '1960-04-04', 'Nigeria', 188),
+
+    -- Goodfellas (pelicula_id: 16)
+    (61, 'Robert De Niro', '1943-08-17', 'Nueva York', 177),
+    (62, 'Ray Liotta', '1954-12-18', 'Nueva Jersey', 183),
+    (63, 'Joe Pesci', '1943-02-09', 'Nueva Jersey', 165),
+    (64, 'Lorraine Bracco', '1954-10-02', 'Nueva York', 168),
+
+    -- Alguien voló sobre el nido del cuco (pelicula_id: 17)
+    (65, 'Jack Nicholson', '1937-04-22', 'Nueva York', 177),
+    (66, 'Louise Fletcher', '1934-07-22', 'Alabama', 169),
+    (67, 'William Redfield', '1927-01-26', 'Nueva Jersey', 178),
+    (68, 'Danny DeVito', '1944-11-17', 'Nueva Jersey', 150),
+
+    -- Seven (pelicula_id: 18)
+    (69, 'Brad Pitt', '1963-12-18', 'Oklahoma', 180),
+    (70, 'Morgan Freeman', '1937-06-01', 'Tennessee', 188),
+    (71, 'Gwyneth Paltrow', '1972-09-27', 'California', 173),
+    (72, 'Kevin Spacey', '1959-07-26', 'Nueva Jersey', 178),
+
+    -- Vengadores: Infinity War (pelicula_id: 19)
+    (73, 'Robert Downey Jr.', '1965-04-04', 'Nueva York', 174),
+    (74, 'Chris Hemsworth', '1983-08-11', 'Australia', 190),
+    (75, 'Scarlett Johansson', '1984-11-22', 'Nueva York', 160),
+    (76, 'Josh Brolin', '1968-02-12', 'California', 177),
+
+    -- Interstellar (pelicula_id: 20)
+    (77, 'Matthew McConaughey', '1969-11-04', 'Texas', 180),
+    (78, 'Anne Hathaway', '1982-11-12', 'Nueva York', 173),
+    (79, 'Jessica Chastain', '1977-03-24', 'California', 163),
+    (80, 'Michael Caine', '1933-03-14', 'Inglaterra', 188),
+
+    -- El silencio de los corderos (pelicula_id: 21)
+    (81, 'Anthony Hopkins', '1937-12-31', 'Gales', 174),
+    (82, 'Jodie Foster', '1962-11-19', 'California', 160),
+    (83, 'Ted Levine', '1957-05-29', 'Ohio', 180),
+    (84, 'Scott Glenn', '1941-01-26', 'Pittsburgh', 183),
+    
+    -- Spider-Man: Cruzando el multiverso (pelicula_id: 22)
+    (85, 'Shameik Moore', '1995-05-04', 'Georgia', 170),
+    (86, 'Jake Johnson', '1978-05-28', 'Iowa', 170),
+    (87, 'Hailee Steinfeld', '1996-12-11', 'California', 173),
+    (88, 'Mahershala Ali', '1974-02-16', 'California', 190),
+    
+    -- Salvar al soldado Ryan (pelicula_id: 23)
+    (89, 'Tom Hanks', '1956-07-09', 'California', 183),
+    (90, 'Matt Damon', '1970-10-08', 'Massachusetts', 178),
+    (91, 'Tom Sizemore', '1961-11-29', 'Michigan', 180),
+    (92, 'Edward Burns', '1968-01-29', 'Queens', 185),
+    
+    -- La vida es bella (pelicula_id: 24)
+    (93, 'Roberto Benigni', '1952-10-27', 'Toscana', 168),
+    (94, 'Nicoletta Braschi', '1960-12-19', 'Emilia-Romaña', 165),
+    (95, 'Giorgio Cantarini', '1992-04-12', 'Roma', 175),
+    (96, 'Giustino Durano', '1923-05-05', 'Campania', 170),
+    
+    -- La milla verde (pelicula_id: 25)
+    (97, 'Tom Hanks', '1956-07-09', 'California', 183),
+    (98, 'Michael Clarke Duncan', '1957-12-10', 'Illinois', 196),
+    (99, 'David Morse', '1953-10-11', 'Massachusetts', 193),
+    (100, 'Bonnie Hunt', '1961-09-22', 'Chicago', 170),
+
+    -- Star Wars (pelicula_id: 26)
+    (101, 'Mark Hamill', '1951-09-25', 'California', 175),
+    (102, 'Harrison Ford', '1942-07-13', 'Illinois', 183),
+    (103, 'Carrie Fisher', '1956-10-21', 'California', 155),
+    (104, 'James Earl Jones', '1931-01-17', 'Mississippi', 187),
+
+    -- Terminator 2: El juicio final (pelicula_id: 27)
+    (105, 'Arnold Schwarzenegger', '1947-07-30', 'Austria', 188),
+    (106, 'Linda Hamilton', '1956-09-26', 'Maryland', 165),
+    (107, 'Edward Furlong', '1977-08-02', 'California', 173),
+    (108, 'Robert Patrick', '1958-11-05', 'Georgia', 180),
+
+    -- Regreso al futuro (pelicula_id: 28)
+    (109, 'Michael J. Fox', '1961-06-09', 'Alberta', 163),
+    (110, 'Christopher Lloyd', '1938-10-22', 'Connecticut', 185),
+    (111, 'Lea Thompson', '1961-05-31', 'Minnesota', 163),
+    (112, 'Crispin Glover', '1964-04-20', 'Nueva York', 185),
+
+    -- El viaje de Chihiro (pelicula_id: 29)
+    (113, 'Rumi Hiiragi', '1987-08-01', 'Tokio', 160),
+    (114, 'Miyu Irino', '1988-02-19', 'Tokio', 167),
+    (115, 'Mari Natsuki', '1952-05-02', 'Tokio', 160),
+    (116, 'Tatsuya Gashûin', '1950-01-01', 'Tokio', 172),
+
+    -- El pianista (pelicula_id: 30)
+    (117, 'Adrien Brody', '1973-04-14', 'Nueva York', 185),
+    (118, 'Thomas Kretschmann', '1962-09-08', 'Alemania', 180),
+    (119, 'Maureen Lipman', '1946-05-10', 'Inglaterra', 157),
+    (120, 'Emilia Fox', '1974-07-31', 'Londres', 165);
+
+-- Psicosis (pelicula_id: 31)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (121, 'Anthony Perkins', '1932-04-04', 'Nueva York', 183),
+    (122, 'Janet Leigh', '1927-07-06', 'California', 163),
+    (123, 'Vera Miles', '1929-08-23', 'Idaho', 163),
+    (124, 'John Gavin', '1931-04-08', 'California', 185);
+
+-- Parásitos (pelicula_id: 32)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (125, 'Song Kang-ho', '1967-01-17', 'Corea del Sur', 178),
+    (126, 'Lee Sun-kyun', '1975-03-02', 'Corea del Sur', 183),
+    (127, 'Choi Woo-shik', '1990-03-26', 'Canadá', 175),
+    (128, 'Park So-dam', '1991-09-08', 'Corea del Sur', 167);
+
+-- Gladiador (pelicula_id: 33)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (129, 'Russell Crowe', '1964-04-07', 'Nueva Zelanda', 183),
+    (130, 'Joaquin Phoenix', '1974-10-28', 'Puerto Rico', 173),
+    (131, 'Connie Nielsen', '1965-07-03', 'Dinamarca', 180),
+    (132, 'Oliver Reed', '1938-02-13', 'Inglaterra', 183);
+
+-- El Rey León (pelicula_id: 34)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (133, 'Matthew Broderick', '1962-03-21', 'Nueva York', 172),
+    (134, 'Jeremy Irons', '1948-09-19', 'Isle of Wight', 188),
+    (135, 'James Earl Jones', '1931-01-17', 'Misisipi', 188),
+    (136, 'Niketa Calame', '1980-12-15', 'California', 162);
+
+-- American History X (pelicula_id: 35)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (137, 'Edward Norton', '1969-08-18', 'Boston', 183),
+    (138, 'Edward Furlong', '1977-08-02', 'California', 173),
+    (139, 'Beverly D''Angelo', '1951-11-15', 'Ohio', 165),
+    (140, 'Avery Brooks', '1948-10-02', 'Indiana', 183);
+
+-- Infiltrados (pelicula_id: 36)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (141, 'Leonardo DiCaprio', '1974-11-11', 'California', 183),
+    (142, 'Matt Damon', '1970-10-08', 'Massachusetts', 178),
+    (143, 'Jack Nicholson', '1937-04-22', 'Nueva York', 177),
+    (144, 'Mark Wahlberg', '1971-06-05', 'Massachusetts', 173);
+
+-- Whiplash (pelicula_id: 37)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (145, 'Miles Teller', '1987-02-20', 'Pennsylvania', 183),
+    (146, 'J.K. Simmons', '1955-01-09', 'Michigan', 180),
+    (147, 'Paul Reiser', '1956-03-30', 'Nueva York', 182),
+    (148, 'Melissa Benoist', '1988-10-04', 'Colorado', 173);
+
+-- El truco final (pelicula_id: 38)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (149, 'Hugh Jackman', '1968-10-12', 'Australia', 188),
+    (150, 'Christian Bale', '1974-01-30', 'Gales', 183),
+    (151, 'Michael Caine', '1933-03-14', 'Londres', 188),
+    (152, 'Piper Perabo', '1976-10-31', 'Texas', 163);
+
+-- La tumba de las luciérnagas (pelicula_id: 39)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (153, 'Tsutomu Tatsumi', '1936-10-17', 'Japón', 170),
+    (154, 'Ayano Shiraishi', '1953-04-04', 'Japón', 163),
+    (155, 'Yoshiko Shinohara', '1923-08-17', 'Japón', 156),
+    (156, 'Akemi Yamaguchi', '1950-10-12', 'Japón', 165);
+
+-- Intocable (pelicula_id: 40)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (157, 'François Cluzet', '1955-09-21', 'París', 180),
+    (158, 'Omar Sy', '1978-01-20', 'Francia', 188),
+    (159, 'Anne Le Ny', '1956-12-31', 'Francia', 163),
+    (160, 'Audrey Fleurot', '1977-07-06', 'Marsella', 167);
+
+-- Oppenheimer (pelicula_id: 41)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (161, 'Cillian Murphy', '1976-05-25', 'Irlanda', 175),
+    (162, 'Emily Blunt', '1983-02-23', 'Inglaterra', 171),
+    (163, 'Sam Rockwell', '1968-11-05', 'California', 173),
+    (164, 'Michael Stuhlbarg', '1968-07-05', 'California', 180);
+
+-- Cinema Paradiso (pelicula_id: 42)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (165, 'Philippe Noiret', '1930-10-01', 'Francia', 175),
+    (166, 'Jacques Perrin', '1941-07-13', 'Francia', 168),
+    (167, 'Salvatore Cascio', '1979-11-17', 'Italia', 170),
+    (168, 'Marco Leonardi', '1971-11-14', 'Italia', 178);
+
+-- Hasta que llegó su hora (pelicula_id: 43)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (169, 'Henry Fonda', '1905-05-16', 'Nebraska', 185),
+    (170, 'Charles Bronson', '1921-11-03', 'Pennsylvania', 175),
+    (171, 'Claudia Cardinale', '1938-04-15', 'Túnez', 170),
+    (172, 'Jason Robards', '1922-07-26', 'Illinois', 180);
+
+-- La ventana indiscreta (pelicula_id: 44)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (173, 'James Stewart', '1908-05-20', 'Indiana', 190),
+    (174, 'Grace Kelly', '1929-11-12', 'Filadelfia', 167),
+    (175, 'Wendell Corey', '1914-03-20', 'Ohio', 180),
+    (176, 'Thelma Ritter', '1902-02-14', 'Nueva York', 155);
+
+-- Alien, el octavo pasajero (pelicula_id: 45)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (177, 'Sigourney Weaver', '1949-10-08', 'Nueva York', 180),
+    (178, 'Tom Skerritt', '1933-08-25', 'Míchigan', 185),
+    (179, 'Veronica Cartwright', '1949-04-20', 'Bristol', 168),
+    (180, 'John Hurt', '1940-01-22', 'Derbyshire', 180);
+
+-- Apocalypse Now (pelicula_id: 46)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (181, 'Martin Sheen', '1940-08-03', 'Ohio', 170),
+    (182, 'Marlon Brando', '1924-04-03', 'Nebraska', 175),
+    (183, 'Robert Duvall', '1931-01-05', 'California', 174),
+    (184, 'Laurence Fishburne', '1961-07-30', 'Georgia', 185);
+
+-- Memento (pelicula_id: 47)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (185, 'Guy Pearce', '1967-10-05', 'Inglaterra', 180),
+    (186, 'Carrie-Anne Moss', '1967-08-21', 'Canadá', 174),
+    (187, 'Joe Pantoliano', '1951-09-12', 'Nueva Jersey', 168),
+    (188, 'Mark Boone Junior', '1955-03-17', 'Ohio', 180);
+
+-- Django desencadenado (pelicula_id: 48)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (189, 'Leonardo DiCaprio', '1974-11-11', 'California', 183),
+    (190, 'Christoph Waltz', '1956-10-04', 'Viena', 173),
+    (191, 'Jamie Foxx', '1967-12-13', 'Texas', 175),
+    (192, 'Kerry Washington', '1977-01-31', 'Nueva York', 163);
+
+-- En busca del arca perdida (pelicula_id: 49)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (193, 'Harrison Ford', '1942-07-13', 'Illinois', 183),
+    (194, 'Karen Allen', '1951-10-05', 'Illinois', 165),
+    (195, 'Paul Freeman', '1943-01-18', 'Inglaterra', 178),
+    (196, 'John Rhys-Davies', '1944-05-05', 'Gales', 185);
+
+-- WALL·E (pelicula_id: 50)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (197, 'Ben Burtt', '1960-07-12', 'Nueva York', 175),
+    (198, 'Elissa Knight', '1975-04-15', 'California', 163),
+    (199, 'Jeff Garlin', '1962-06-05', 'Illinois', 180),
+    (200, 'Fred Willard', '1939-09-18', 'Ohio', 182);
+
+-- El resplandor (pelicula_id: 51)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (201, 'Jack Nicholson', '1937-04-22', 'Nueva York', 177),
+    (202, 'Shelley Duvall', '1949-07-07', 'Texas', 173),
+    (203, 'Danny Lloyd', '1973-10-13', 'Illinois', 165),
+    (204, 'Scatman Crothers', '1910-05-23', 'Indiana', 180);
+
+-- Spider-Man: Un nuevo universo (pelicula_id: 52)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (205, 'Shameik Moore', '1995-05-04', 'Georgia', 175),
+    (206, 'Jake Johnson', '1978-05-28', 'Illinois', 178),
+    (207, 'Hailee Steinfeld', '1996-12-11', 'California', 170),
+    (208, 'Mahershala Ali', '1974-02-16', 'California', 183);
+
+-- Aliens. El regreso (pelicula_id: 53)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (209, 'Sigourney Weaver', '1949-10-08', 'Nueva York', 180),
+    (210, 'Michael Biehn', '1956-07-31', 'Alabama', 183),
+    (211, 'Carrie Henn', '1976-05-07', 'Florida', 163),
+    (212, 'Paul Reiser', '1956-03-30', 'Nueva York', 178);
+
+-- Malditos bastardos (pelicula_id: 54)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (213, 'Brad Pitt', '1963-12-18', 'Oklahoma', 180),
+    (214, 'Christoph Waltz', '1956-10-04', 'Viena', 175),
+    (215, 'Michael Fassbender', '1977-04-02', 'Alemania', 183),
+    (216, 'Diane Kruger', '1976-07-15', 'Alemania', 170);
+
+-- El caballero oscuro: La leyenda renace (pelicula_id: 55)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (217, 'Christian Bale', '1974-01-30', 'Gales', 183),
+    (218, 'Tom Hardy', '1977-09-15', 'Londres', 175),
+    (219, 'Anne Hathaway', '1982-11-12', 'Nueva York', 170),
+    (220, 'Gary Oldman', '1958-03-21', 'Londres', 178);
+
+-- Old Boy (pelicula_id: 56)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (221, 'Choi Min-sik', '1962-04-27', 'Corea del Sur', 178),
+    (222, 'Yoo Ji-tae', '1976-04-13', 'Corea del Sur', 183),
+    (223, 'Kang Hye-jung', '1982-01-04', 'Corea del Sur', 168),
+    (224, 'Ji Dae-han', '1974-03-09', 'Corea del Sur', 175);
+-- Coco (pelicula_id: 57)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (225, 'Anthony Gonzalez', '2005-09-23', 'California', 162),
+    (226, 'Gael García Bernal', '1978-11-30', 'Guadalajara', 172),
+    (227, 'Benjamin Bratt', '1963-12-16', 'California', 183),
+    (228, 'Alanna Ubach', '1975-10-03', 'California', 160);
+
+-- Toy Story (pelicula_id: 58)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (229, 'Tom Hanks', '1956-07-09', 'California', 183),
+    (230, 'Tim Allen', '1953-06-13', 'California', 180),
+    (231, 'Annie Potts', '1952-10-28', 'Kentucky', 160),
+    (232, 'Joan Cusack', '1962-10-11', 'Nueva York', 170);
+
+-- Braveheart (pelicula_id: 59)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (233, 'Mel Gibson', '1956-01-03', 'Nueva York', 177),
+    (234, 'Sophie Marceau', '1966-11-17', 'París', 172),
+    (235, 'Catherine McCormack', '1972-04-03', 'Reino Unido', 170),
+    (236, 'Patrick McGoohan', '1928-03-19', 'Nueva York', 183);
+
+-- Vengadores: Endgame (pelicula_id: 60)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (237, 'Robert Downey Jr.', '1965-04-04', 'Nueva York', 174),
+    (238, 'Chris Evans', '1981-06-13', 'Massachusetts', 183),
+    (239, 'Mark Ruffalo', '1967-11-22', 'Wisconsin', 173),
+    (240, 'Chris Hemsworth', '1983-08-11', 'Melbourne', 190);
+
+-- Joker (pelicula_id: 61)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (241, 'Joaquin Phoenix', '1974-10-28', 'Puerto Rico', 173),
+    (242, 'Robert De Niro', '1943-08-17', 'Nueva York', 177),
+    (243, 'Zazie Beetz', '1991-05-25', 'Berlín', 168),
+    (244, 'Frances Conroy', '1953-11-13', 'Georgia', 165);
+
+-- La princesa Mononoke (pelicula_id: 62)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (245, 'Billy Crudup', '1968-07-08', 'Nueva York', 175),
+    (246, 'Billy Bob Thornton', '1955-08-04', 'Arkansas', 182),
+    (247, 'Minnie Driver', '1970-01-31', 'Londres', 170),
+    (248, 'John DiMaggio', '1968-09-04', 'Nueva Jersey', 178);
+
+-- El indomable Will Hunting (pelicula_id: 63)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (249, 'Robin Williams', '1951-07-21', 'Chicago', 173),
+    (250, 'Matt Damon', '1970-10-08', 'Massachusetts', 178),
+    (251, 'Ben Affleck', '1972-08-15', 'California', 192),
+    (252, 'Minnie Driver', '1970-01-31', 'Londres', 170);
+
+-- Your Name (pelicula_id: 64)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (253, 'Ryunosuke Kamiki', '1993-05-19', 'Japón', 170),
+    (254, 'Mone Kamishiraishi', '1998-01-27', 'Japón', 160),
+    (255, 'Masami Nagasawa', '1987-06-03', 'Japón', 165),
+    (256, 'Etsuko Ichihara', '1936-01-26', 'Japón', 155);
+
+-- Cantando bajo la lluvia (pelicula_id: 65)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (257, 'Gene Kelly', '1912-08-23', 'Pensilvania', 175),
+    (258, 'Donald O''Connor', '1925-08-28', 'Illinois', 178),
+    (259, 'Debbie Reynolds', '1932-04-01', 'Texas', 157),
+    (260, 'Jean Hagen', '1923-08-03', 'Illinois', 165);
+
+-- Réquiem por un sueño (pelicula_id: 66)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (261, 'Jared Leto', '1971-12-26', 'Luisiana', 173),
+    (262, 'Ellen Burstyn', '1932-12-07', 'Michigan', 165),
+    (263, 'Jennifer Connelly', '1970-12-12', 'Nueva York', 169),
+    (264, 'Marlon Wayans', '1972-07-23', 'Nueva York', 178);
+
+-- Toy Story 3 (pelicula_id: 67)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (265, 'Tom Hanks', '1956-07-09', 'California', 183),
+    (266, 'Tim Allen', '1953-06-13', 'California', 180),
+    (267, 'Joan Cusack', '1962-10-11', 'Nueva York', 170),
+    (268, 'Ned Beatty', '1937-07-06', 'Kentucky', 175);
+
+-- El retorno del Jedi (pelicula_id: 68)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (269, 'Mark Hamill', '1951-09-25', 'California', 175),
+    (270, 'Harrison Ford', '1942-07-13', 'Illinois', 185),
+    (271, 'Carrie Fisher', '1956-10-21', 'California', 155),
+    (272, 'Billy Dee Williams', '1937-04-06', 'Nueva York', 182);
+
+-- Eterno resplandor de una mente sin recuerdos (pelicula_id: 69)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (273, 'Jim Carrey', '1962-01-17', 'Nueva York', 188),
+    (274, 'Kate Winslet', '1975-10-05', 'Inglaterra', 170),
+    (275, 'Elijah Wood', '1981-01-28', 'Iowa', 168),
+    (276, 'Kirsten Dunst', '1982-04-30', 'Nueva Jersey', 170);
+
+-- 2001: Una odisea del espacio (pelicula_id: 70)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (277, 'Keir Dullea', '1936-05-30', 'Ohio', 180),
+    (278, 'Gary Lockwood', '1937-02-21', 'California', 180),
+    (279, 'William Sylvester', '1922-01-31', 'Oakland', 183),
+    (280, 'Leonard Rossiter', '1926-10-21', 'Londres', 175);
+
+-- Reservoir Dogs (pelicula_id: 71)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (281, 'Harvey Keitel', '1939-05-13', 'Nueva York', 173),
+    (282, 'Tim Roth', '1961-05-14', 'Londres', 170),
+    (283, 'Michael Madsen', '1958-09-25', 'Illinois', 183),
+    (284, 'Steve Buscemi', '1957-12-13', 'Nueva York', 168);
+
+-- Vértigo (pelicula_id: 72)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (285, 'James Stewart', '1908-05-20', 'Indiana', 191),
+    (286, 'Kim Novak', '1933-02-13', 'Chicago', 168),
+    (287, 'Barbara Bel Geddes', '1922-10-31', 'Nueva York', 165),
+    (288, 'Tom Helmore', '1904-01-04', 'Inglaterra', 180);
+
+-- Scarface (pelicula_id: 73)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (289, 'Al Pacino', '1940-04-25', 'Nueva York', 170),
+    (290, 'Michelle Pfeiffer', '1958-04-29', 'California', 171),
+    (291, 'Steven Bauer', '1956-12-02', 'Cuba', 183),
+    (292, 'Mary Elizabeth Mastrantonio', '1958-11-17', 'Illinois', 163);
+
+-- La chaqueta metálica (pelicula_id: 74)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (293, 'Matthew Modine', '1959-03-22', 'California', 188),
+    (294, 'Adam Baldwin', '1962-02-27', 'Chicago', 190),
+    (295, 'Vincent D''Onofrio', '1959-06-30', 'Nueva York', 192),
+    (296, 'R. Lee Ermey', '1944-03-24', 'Kansas', 177);
+
+-- La naranja mecánica (pelicula_id: 75)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (297, 'Malcolm McDowell', '1943-06-13', 'Inglaterra', 175),
+    (298, 'Patrick Magee', '1922-03-31', 'Inglaterra', 178),
+    (299, 'Michael Bates', '1920-12-04', 'Inglaterra', 183),
+    (300, 'Warren Clarke', '1947-04-26', 'Inglaterra', 183);
+
+-- Up (pelicula_id: 76)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (301, 'Edward Asner', '1929-11-15', 'Kansas', 168),
+    (302, 'Christopher Plummer', '1929-12-13', 'Ontario', 178),
+    (303, 'Jordan Nagai', '2000-02-05', 'California', 158),
+    (304, 'Bob Peterson', '1961-01-18', 'Wooster', 170);
+
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+  -- Indiana Jones y la última cruzada (pelicula_id: 77)
+  (305, 'Harrison Ford', '1942-07-13', 'Chicago', 183),
+  (306, 'Sean Connery', '1930-08-25', 'Edimburgo', 188),
+  (307, 'Denholm Elliott', '1922-05-31', 'Londres', 180),
+  (308, 'Alison Doody', '1966-11-11', 'Dublín', 173),
+  
+  -- Duro de matar (pelicula_id: 78)
+  (309, 'Bruce Willis', '1955-03-19', 'Alemania', 183),
+  (310, 'Alan Rickman', '1946-02-21', 'Londres', 185),
+  (311, 'Bonnie Bedelia', '1948-03-25', 'Nueva York', 165),
+  (312, 'Reginald VelJohnson', '1952-08-16', 'Queens', 180),
+  
+  -- Taxi Driver (pelicula_id: 79)
+  (313, 'Robert De Niro', '1943-08-17', 'Nueva York', 178),
+  (314, 'Jodie Foster', '1962-11-19', 'California', 160),
+  (315, 'Cybill Shepherd', '1950-02-18', 'Tennessee', 173),
+  (316, 'Harvey Keitel', '1939-05-13', 'Nueva York', 175),
+  
+  -- 1917 (pelicula_id: 80)
+  (317, 'George MacKay', '1992-03-13', 'Londres', 178),
+  (318, 'Dean-Charles Chapman', '1997-09-07', 'Inglaterra', 175),
+  (319, 'Mark Strong', '1963-08-05', 'Londres', 185),
+  (320, 'Andrew Scott', '1976-10-21', 'Dublín', 175);
+
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+  -- La muerte tenía un precio (pelicula_id: 81)
+  (321, 'Clint Eastwood', '1930-05-31', 'San Francisco', 193),
+  (322, 'Lee Van Cleef', '1925-01-09', 'Nueva Jersey', 191),
+  (323, 'Gian Maria Volonté', '1933-04-09', 'Milán', 185),
+  (324, 'Marianne Koch', '1931-08-19', 'Munich', 173),
+  
+  -- Batman Begins (pelicula_id: 82)
+  (325, 'Christian Bale', '1974-01-30', 'Gales', 183),
+  (326, 'Michael Caine', '1933-03-14', 'Londres', 188),
+  (327, 'Liam Neeson', '1952-06-07', 'Irlanda del Norte', 193),
+  (328, 'Katie Holmes', '1978-12-18', 'Ohio', 175),
+  
+  -- Top Gun: Maverick (pelicula_id: 83)
+  (329, 'Tom Cruise', '1962-07-03', 'Siracusa', 170),
+  (330, 'Miles Teller', '1987-02-20', 'Pennsylvania', 183),
+  (331, 'Jennifer Connelly', '1970-12-12', 'Nueva York', 169),
+  (332, 'Jon Hamm', '1971-03-10', 'Misuri', 188),
+  
+  -- El lobo de Wall Street (pelicula_id: 84)
+  (333, 'Leonardo DiCaprio', '1974-11-11', 'California', 183),
+  (334, 'Jonah Hill', '1983-12-20', 'California', 170),
+  (335, 'Margot Robbie', '1990-07-02', 'Queensland', 168),
+  (336, 'Matthew McConaughey', '1969-11-04', 'Texas', 182),
+  
+  -- El show de Truman (pelicula_id: 85)
+  (337, 'Jim Carrey', '1962-01-17', 'Ontario', 186),
+  (338, 'Laura Linney', '1964-02-05', 'Nueva York', 163),
+  (339, 'Ed Harris', '1950-11-28', 'Nueva Jersey', 175),
+  (340, 'Noah Emmerich', '1965-02-27', 'Nueva York', 183),
+  
+  -- Shutter Island (pelicula_id: 86)
+  (341, 'Leonardo DiCaprio', '1974-11-11', 'California', 183),
+  (342, 'Mark Ruffalo', '1967-11-22', 'Wisconsin', 173),
+  (343, 'Ben Kingsley', '1943-12-31', 'Yorkshire', 173),
+  (344, 'Michelle Williams', '1980-09-09', 'Montana', 163),
+  
+  -- El laberinto del fauno (pelicula_id: 87)
+  (345, 'Ivana Baquero', '1994-03-11', 'Barcelona', 166),
+  (346, 'Sergi López', '1965-12-22', 'Villanova i la Geltrú', 180),
+  (347, 'Maribel Verdú', '1970-10-02', 'Madrid', 163),
+  (348, 'Doug Jones', '1960-05-24', 'Indiana', 189),
+  
+  -- El sexto sentido (pelicula_id: 88)
+  (349, 'Bruce Willis', '1955-03-19', 'Alemania', 183),
+  (350, 'Haley Joel Osment', '1988-04-10', 'California', 168),
+  (351, 'Toni Collette', '1972-11-01', 'Sídney', 166),
+  (352, 'Olivia Williams', '1968-07-26', 'Cambridge', 165),
+  
+  -- Jurassic Park (pelicula_id: 89)
+  (353, 'Sam Neill', '1947-09-14', 'Omagh', 183),
+  (354, 'Laura Dern', '1967-02-10', 'California', 170),
+  (355, 'Jeff Goldblum', '1952-10-22', 'Pittsburgh', 193),
+  (356, 'Richard Attenborough', '1923-08-29', 'Cambridge', 173);
+
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+  -- Spider-Man: No Way Home (pelicula_id: 90)
+  (357, 'Tom Holland', '1996-06-01', 'Londres', 173),
+  (358, 'Zendaya', '1996-09-01', 'California', 178),
+  (359, 'Willem Dafoe', '1955-07-22', 'Wisconsin', 180),
+  (360, 'Alfred Molina', '1953-05-24', 'Londres', 185),
+
+  -- Klaus (pelicula_id: 91)
+  (361, 'Jason Schwartzman', '1980-06-26', 'California', 175),
+  (362, 'J.K. Simmons', '1955-01-09', 'Michigan', 180),
+  (363, 'Rashida Jones', '1976-02-25', 'California', 168),
+  (364, 'Joan Cusack', '1962-10-11', 'Nueva York', 170),
+  
+  -- Logan (pelicula_id: 92)
+  (365, 'Hugh Jackman', '1968-10-12', 'Australia', 188),
+  (366, 'Patrick Stewart', '1940-07-13', 'Inglaterra', 177),
+  (367, 'Dafne Keen', '2005-01-04', 'Madrid', 160),
+  (368, 'Boyd Holbrook', '1981-09-01', 'Kentucky', 183),
+
+  -- Hasta el último hombre (pelicula_id: 93)
+  (369, 'Andrew Garfield', '1983-08-20', 'Los Ángeles', 178),
+  (370, 'Teresa Palmer', '1986-02-26', 'Adelaida', 168),
+  (371, 'Vince Vaughn', '1970-03-28', 'Minnesota', 196),
+  (372, 'Sam Worthington', '1976-08-02', 'Surrey', 178),
+  
+  -- Mad Max: Furia en la carretera (pelicula_id: 94)
+  (373, 'Tom Hardy', '1977-09-15', 'Londres', 175),
+  (374, 'Charlize Theron', '1975-08-07', 'Benoni', 177),
+  (375, 'Nicholas Hoult', '1989-12-07', 'Wokingham', 188),
+  (376, 'Hugh Keays-Byrne', '1947-05-18', 'Srinagar', 181),
+  
+  -- Cómo entrenar a tu dragón (pelicula_id: 95)
+  (377, 'Jay Baruchel', '1982-04-09', 'Ottawa', 180),
+  (378, 'Gerard Butler', '1969-11-13', 'Paisley', 188),
+  (379, 'America Ferrera', '1984-04-18', 'California', 155),
+  (380, 'Craig Ferguson', '1962-05-17', 'Glasgow', 188);
+
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+  -- Misión Imposible: Sentencia mortal (pelicula_id: 96)
+  (381, 'Tom Cruise', '1962-07-03', 'Nueva York', 170),
+  (382, 'Rebecca Ferguson', '1983-10-19', 'Suecia', 170),
+  (383, 'Ving Rhames', '1959-05-12', 'Nueva York', 178),
+  (384, 'Simon Pegg', '1970-02-14', 'Gloucester', 178),
+
+  -- Barbie (pelicula_id: 97)
+  (385, 'Margot Robbie', '1990-07-02', 'Queensland', 168),
+  (386, 'Ryan Gosling', '1980-11-12', 'Ontario', 184),
+  (387, 'Amandla Stenberg', '1998-10-23', 'Los Ángeles', 163),
+  (388, 'Emma Watson', '1990-04-15', 'París', 165),
+  
+  -- La monja II (pelicula_id: 98)
+  (389, 'Taissa Farmiga', '1994-08-17', 'Readington', 168),
+  (390, 'Bonnie Aarons', '1979-06-03', 'Los Ángeles', 173),
+  (391, 'Demian Bichir', '1963-08-01', 'Torreón', 175),
+  (392, 'Jonas Bloquet', '2002-12-10', 'Bélgica', 180),
+
+  -- Blue Beetle (pelicula_id: 99)
+  (393, 'Xolo Mariduena', '2001-06-09', 'Los Ángeles', 175),
+  (394, 'Harvey Guillén', '1990-05-04', 'Costa Rica', 175),
+  (395, 'Adriana Barraza', '1956-03-05', 'Toluca', 155),
+  (396, 'Bruna Marquezine', '1995-08-04', 'Duque de Caxias', 169),
+
+  -- Radical (pelicula_id: 100)
+  (397, 'Zendaya', '1996-09-01', 'California', 178),
+  (398, 'Tom Holland', '1996-06-01', 'Londres', 173),
+  (399, 'Willem Dafoe', '1955-07-22', 'Wisconsin', 180),
+  (400, 'Alfred Molina', '1953-05-24', 'Londres', 185);
+
+
+
+
+
+
+
+
+
+
+

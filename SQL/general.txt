@@ -1,0 +1,5 @@
+ALTER TABLE actores
+ADD COLUMN foto VARCHAR(50); 
+
+UPDATE actores 
+SET foto = CONCAT(REPLACE(nombre, ' ', ''), '.jpg');

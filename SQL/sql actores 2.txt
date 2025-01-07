@@ -1,0 +1,395 @@
+-- Para Breaking Bad (serie_id: 50000001)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (401, 'Bryan Cranston', '1956-03-07', 'California', 179),
+    (402, 'Aaron Paul', '1979-08-27', 'Idaho', 173),
+    (403, 'Anna Gunn', '1968-08-11', 'Ohio', 178),
+    (404, 'Dean Norris', '1963-04-08', 'Indiana', 170);
+
+-- Para Chernobyl (serie_id: 50000002)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (405, 'Jared Harris', '1961-08-24', 'Inglaterra', 180),
+    (406, 'Stellan Skarsgård', '1951-06-13', 'Suecia', 191),
+    (407, 'Jessie Buckley', '1989-12-28', 'Irlanda', 170),
+    (408, 'Adam Nagaitis', '1985-08-07', 'Inglaterra', 175);
+
+-- Para Avatar: La leyenda de Aang (serie_id: 50000003)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (409, 'Zach Tyler Eisen', '1993-09-23', 'California', 165),
+    (410, 'Mae Whitman', '1988-06-09', 'California', 157),
+    (411, 'Jack DeSena', '1987-12-06', 'Boston', 175),
+    (412, 'Dante Basco', '1975-08-29', 'California', 168);
+-- Para Los Soprano (serie_id: 50000004)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (413, 'James Gandolfini', '1961-09-18', 'New Jersey', 183),
+    (414, 'Edie Falco', '1963-07-05', 'New York', 165),
+    (415, 'Michael Imperioli', '1966-03-26', 'New York', 175);
+    -- cambio 64
+    
+-- Para Juego de Tronos (serie_id: 50000005)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (417, 'Kit Harington', '1986-12-26', 'Worcestershire, Inglaterra', 173),
+    (418, 'Emilia Clarke', '1986-10-23', 'Londres, Inglaterra', 157),
+    (419, 'Peter Dinklage', '1969-06-11', 'Morristown, Nueva Jersey', 135),
+    (420, 'Lena Headey', '1973-10-03', 'Hamilton, Bermuda', 165);
+
+-- Para Rick and Morty (serie_id: 50000006)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (421, 'Justin Roiland', '1980-02-21', 'Stockton, California', 175),
+    (422, 'Chris Parnell', '1967-02-05', 'Memphis, Tennessee', 170),
+    (423, 'Spencer Grammer', '1983-10-09', 'Los Angeles, California', 168),
+    (424, 'Sarah Chalke', '1976-08-27', 'Ottawa, Ontario, Canadá', 169);
+    
+-- Para Fullmetal Alchemist: Brotherhood (serie_id: 50000007)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (425, 'Romi Park', '1972-01-22', 'Tokio, Japón', 163),
+    (426, 'Rie Kugimiya', '1979-05-30', 'Osaka, Japón', 156),
+    (427, 'Shinichiro Miki', '1968-03-18', 'Tokio, Japón', 172),
+    (428, 'Kenta Miyake', '1977-08-23', 'Okazaki, Japón', 168);
+
+-- Para Sherlock (serie_id: 50000008)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (429, 'Benedict Cumberbatch', '1976-07-19', 'Londres, Inglaterra', 183),
+    (430, 'Martin Freeman', '1971-09-08', 'Aldershot, Hampshire, Inglaterra', 170),
+    (431, 'Una Stubbs', '1937-05-01', 'Welwyn Garden City, Hertfordshire, Inglaterra', 160),
+    (432, 'Rupert Graves', '1963-06-30', 'Weston-super-Mare, Somerset, Inglaterra', 183);
+
+-- Para Batman: The Animated Series (serie_id: 50000009)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (433, 'Kevin Conroy', '1955-11-30', 'Westbury, Nueva York', 185),
+    (434, 'Efrem Zimbalist Jr.', '1918-11-30', 'Nueva York', 175),
+    (435, 'Loren Lester', '1960-10-04', 'Los Angeles, California', 178);
+    -- cambio 53
+
+-- Para Attack on Titan (serie_id: 50000010)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (437, 'Yuki Kaji', '1985-09-03', 'Tokio, Japón', 165),
+    (438, 'Yui Ishikawa', '1989-05-30', 'Hyogo, Japón', 164),
+    (439, 'Marina Inoue', '1985-01-20', 'Tokyo, Japón', 158),
+    (440, 'Daisuke Ono', '1978-05-04', 'Kochi, Japón', 173);
+-- Para The Office (serie_id: 50000011)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (441, 'Steve Carell', '1962-08-16', 'Concord, Massachusetts', 175),
+    (442, 'Rainn Wilson', '1966-01-20', 'Seattle, Washington', 188),
+    (443, 'John Krasinski', '1979-10-20', 'Newton, Massachusetts', 190),
+    (444, 'Jenna Fischer', '1974-03-07', 'Fort Wayne, Indiana', 168);
+
+-- Para Arcane (serie_id: 50000012)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 87
+    (446, 'Ella Purnell', '1996-09-17', 'Londres, Inglaterra', 160),
+    (447, 'Katie Leung', '1987-08-08', 'Motherwell, Escocia', 163),
+    (448, 'Jason Spisak', '1973-08-29', 'Wilkes-Barre, Pensilvania', 178);
+
+-- Para Better Call Saul (serie_id: 50000013)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (449, 'Bob Odenkirk', '1962-10-22', 'Berwyn, Illinois', 180),
+    (450, 'Jonathan Banks', '1947-01-31', 'Washington, D.C.', 175),
+    (451, 'Rhea Seehorn', '1972-05-12', 'Norfolk, Virginia', 165),
+    (452, 'Patrick Fabian', '1964-12-07', 'Pittsburgh, Pennsylvania', 183);
+
+-- Para Death Note (serie_id: 50000014)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (453, 'Kappei Yamaguchi', '1965-05-23', 'Fukuoka, Japón', 158),
+    (454, 'Mamoru Miyano', '1983-06-08', 'Saitama, Japón', 180),
+    (455, 'Aya Hirano', '1987-10-08', 'Nagoya, Japón', 152),
+    (456, 'Shidou Nakamura', '1970-06-24', 'Prefectura de Tokio, Japón', 177);
+
+-- Para Hunter x Hunter (serie_id: 50000015)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (457, 'Megumi Han', '1989-06-03', 'Tokio, Japón', 156),
+    (458, 'Mariya Ise', '1988-09-25', 'Yokohama, Japón', 155),
+    (459, 'Keiji Fujiwara', '1964-10-05', 'Tokio, Japón', 173),
+    (460, 'Miyuki Sawashiro', '1985-06-02', 'Tokio, Japón', 164);
+-- Para True Detective (serie_id: 50000016)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 77
+    (462, 'Woody Harrelson', '1961-07-23', 'Midland, Texas', 180),
+    (463, 'Michelle Monaghan', '1976-03-23', 'Winthrop, Iowa', 170),
+    (464, 'Michael Potts', '1962-08-20', 'Brooklyn, Nueva York', 175);
+
+-- Para Seinfeld (serie_id: 50000017)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (465, 'Jerry Seinfeld', '1954-04-29', 'Brooklyn, Nueva York', 180),
+    (466, 'Julia Louis-Dreyfus', '1961-01-13', 'Nueva York, Nueva York', 165),
+    (467, 'Jason Alexander', '1959-09-23', 'Newark, Nueva Jersey', 173),
+    (468, 'Michael Richards', '1949-07-24', 'Culver City, California', 185);
+
+-- Para Cowboy Bebop (serie_id: 50000018)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (469, 'John Cho', '1972-06-16', 'Seúl, Corea del Sur', 175),
+    (470, 'Mustafa Shakir', '1976-08-21', 'Nueva York, Nueva York', 183),
+    (471, 'Daniella Pineda', '1987-02-20', 'Oakland, California', 160),
+    (472, 'Alex Hassell', '1980-09-17', 'Southend, Reino Unido', 180);
+
+-- Para Gravity Falls (serie_id: 50000019)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (473, 'Jason Ritter', '1980-02-17', 'Los Ángeles, California', 180),
+    (474, 'Kristen Schaal', '1978-01-24', 'Longmont, Colorado', 170),
+    (475, 'Alex Hirsch', '1985-06-18', 'Piedmont, California', 175),
+    (476, 'Linda Cardellini', '1975-06-25', 'Redwood City, California', 160);
+
+-- Para Succession (serie_id: 50000020)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (477, 'Brian Cox', '1946-06-01', 'Dundee, Escocia', 175),
+    (478, 'Jeremy Strong', '1978-12-25', 'Boston, Massachusetts', 180),
+    (479, 'Kieran Culkin', '1982-09-30', 'Nueva York, Nueva York', 165),
+    (480, 'Sarah Snook', '1987-07-28', 'Adelaide, Australia', 170);
+-- Para Friends (serie_id: 50000021)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (481, 'Jennifer Aniston', '1969-02-11', 'Sherman Oaks, California', 164),
+    (482, 'Courteney Cox', '1964-06-15', 'Birmingham, Alabama', 165),
+    (483, 'Lisa Kudrow', '1963-07-30', 'Los Ángeles, California', 173),
+    (484, 'Matt LeBlanc', '1967-07-25', 'Newton, Massachusetts', 178);
+
+-- Para Larry David (serie_id: 50000022)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (485, 'Larry David', '1947-07-02', 'Brooklyn, Nueva York', 180),
+    -- cambio 199
+    (487, 'Cheryl Hines', '1965-09-21', 'Miami Beach, Florida', 163),
+    (488, 'Susie Essman', '1955-05-31', 'Mount Vernon, Nueva York', 170);
+
+-- Para One Piece (serie_id: 50000023)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (489, 'Mayumi Tanaka', '1955-01-15', 'Tokyo, Japón', 154),
+    (490, 'Akemi Okamura', '1969-03-12', 'Tokyo, Japón', 163),
+    (491, 'Kazuya Nakai', '1967-11-25', 'Kobe, Japón', 170);
+    -- cambio 453
+
+-- Para BoJack Horseman (serie_id: 50000024)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (493, 'Will Arnett', '1970-05-04', 'Toronto, Ontario, Canadá', 188),
+    (494, 'Amy Sedaris', '1961-03-29', 'Endicott, Nueva York', 160),
+    (495, 'Alison Brie', '1982-12-29', 'Hollywood, California', 160),
+    (496, 'Paul F. Tompkins', '1968-09-12', 'Philadelphia, Pennsylvania', 173);
+
+-- Para Dragon Ball Z (serie_id: 50000025)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (497, 'Sean Schemmel', '1968-11-21', 'Waterbury, Connecticut', 170),
+    (498, 'Christopher Sabat', '1973-04-22', 'Washington, D.C.', 175),
+    (499, 'Stephanie Nadolny', '1972-May-19', 'Canton, Ohio', 163),
+    (500, 'Doc Morgan', '1948-07-07', 'Texas, EE. UU.', 185);
+-- Para Black Mirror (serie_id: 50000026)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (501, 'Daniel Lapaine', '1971-06-15', 'Sídney, Australia', 180),
+    (502, 'Hannah John-Kamen', '1989-09-07', 'Anlaby, Reino Unido', 168),
+    (503, 'Michaela Coel', '1987-10-01', 'Londres, Reino Unido', 165),
+    (504, 'Toby Kebbell', '1982-07-09', 'Stoke-on-Trent, Reino Unido', 185);
+
+-- Para The Last of Us (serie_id: 50000027)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (505, 'Pedro Pascal', '1975-04-02', 'Santiago, Chile', 175),
+    (506, 'Bella Ramsey', '2003-09-25', 'Nottingham, Reino Unido', 160),
+    (507, 'Gabriel Luna', '1982-12-05', 'Austin, Texas', 182),
+    (508, 'Merle Dandridge', '1975-05-31', 'Tokyo, Japón', 170);
+
+-- Para Más allá del jardín (serie_id: 50000028)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 21
+    (510, 'Collin Dean', '1999-11-13', 'Boca Ratón, Florida', 173),
+    (511, 'Melanie Lynskey', '1977-05-16', 'New Plymouth, Nueva Zelanda', 165);
+    -- cambio 110
+
+-- Para South Park (serie_id: 50000029)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (513, 'Trey Parker', '1969-10-19', 'Conifer, Colorado', 183),
+    (514, 'Matt Stone', '1971-05-26', 'Houston, Texas', 178),
+    (515, 'April Stewart', '1969-02-08', 'Anchorage, Alaska', 165),
+    (516, 'Mona Marshall', '1947-08-31', 'Los Ángeles, California', 160);
+
+-- Para Peaky Blinders (serie_id: 50000030)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 161
+    (518, 'Paul Anderson', '1978-02-12', 'Londres, Reino Unido', 183),
+    (519, 'Helen McCrory', '1968-08-17', 'Londres, Reino Unido', 163),
+    (520, 'Sophie Rundle', '1988-04-21', 'Birmingham, Reino Unido', 170);
+
+-- Para Vinland Saga (serie_id: 50000031)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (521, 'Shizuka Ishigami', '1990-02-28', 'Japón', 158),
+    (522, 'Yûto Uemura', '1993-06-14', 'Japón', 172),
+    (523, 'Kenichirou Matsuda', '1973-09-05', 'Japón', 175),
+    (524, 'Nao Tôyama', '1992-03-11', 'Japón', 163);
+
+-- Para Dark (serie_id: 50000032)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (525, 'Louis Hofmann', '1997-06-03', 'Bergisch Gladbach, Alemania', 178),
+    (526, 'Karoline Eichhorn', '1965-11-09', 'Stuttgart, Alemania', 175),
+    (527, 'Lisa Vicari', '1997-02-11', 'Múnich, Alemania', 168),
+    (528, 'Maja Schöne', '1976-09-14', 'Stuttgart, Alemania', 165);
+
+-- Para The Boys (serie_id: 50000033)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 48
+    (530, 'Jack Quaid', '1992-04-24', 'Los Ángeles, California', 175),
+    (531, 'Antony Starr', '1975-10-25', 'Auckland, Nueva Zelanda', 180),
+    (532, 'Erin Moriarty', '1994-06-24', 'Nueva York, Nueva York', 165);
+
+-- Para Fleabag (serie_id: 50000034)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (533, 'Phoebe Waller-Bridge', '1985-07-14', 'Londres, Reino Unido', 170),
+    (534, 'Sian Clifford', '1982-04-07', 'Leeds, Reino Unido', 167),
+    (535, 'Olivia Colman', '1974-01-30', 'Norfolk, Reino Unido', 173),
+    (536, 'Brett Gelman', '1976-10-06', 'Highland Park, Illinois', 180);
+
+-- Para Los Simpson (serie_id: 50000035)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (537, 'Dan Castellaneta', '1957-10-29', 'Chicago, Illinois', 178),
+    (538, 'Julie Kavner', '1950-09-07', 'Los Ángeles, California', 168),
+    (539, 'Nancy Cartwright', '1957-10-25', 'Dayton, Ohio', 163),
+    (540, 'Yeardley Smith', '1964-07-03', 'París, Francia', 157);
+
+-- Para House (serie_id: 50000036)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (541, 'Hugh Laurie', '1959-06-11', 'Oxford, Reino Unido', 188),
+    (542, 'Lisa Edelstein', '1966-05-21', 'Boston, Massachusetts', 168),
+    (543, 'Omar Epps', '1973-07-20', 'Brooklyn, Nueva York', 178),
+    (544, 'Robert Sean Leonard', '1969-02-28', 'Westwood, Nueva Jersey', 183);
+
+-- Para Invincible (serie_id: 50000037)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (545, 'Steven Yeun', '1983-12-21', 'Seúl, Corea del Sur', 175),
+    -- cambio 146
+    (547, 'Sandra Oh', '1971-07-20', 'Nepean, Canadá', 163);
+    -- cambio 243
+
+-- Para One Punch Man (serie_id: 50000038)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (549, 'Makoto Furukawa', '1989-09-29', 'Kumamoto, Japón', 173),
+    (550, 'Kaito Ishikawa', '1993-10-13', 'Tōchigi, Japón', 175),
+    -- cambio 437
+    (552, 'Aoi Yūki', '1992-03-27', 'Chiba, Japón', 157);
+
+-- Para Stranger Things (serie_id: 50000039)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (553, 'Winona Ryder', '1971-10-29', 'Winona, Minnesota', 165),
+    (554, 'David Harbour', '1975-04-10', 'Nueva York, Nueva York', 183),
+    (555, 'Finn Wolfhard', '2002-12-23', 'Vancouver, Canadá', 173),
+    (556, 'Millie Bobby Brown', '2004-02-19', 'Marbella, España', 163);
+
+-- Para The Mandalorian (serie_id: 50000040)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 505
+    (558, 'Gina Carano', '1982-04-16', 'Dallas, Texas', 173),
+    (559, 'Giancarlo Esposito', '1958-04-26', 'Copenhague, Dinamarca', 174),
+    (560, 'Carl Weathers', '1948-01-14', 'Nueva Orleans, Luisiana', 188);
+
+-- Para House of Cards (serie_id: 50000041)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 72
+    -- cambio 38
+    (563, 'Michael Kelly', '1969-05-22', 'Filadelfia, Pensilvania', 180),
+    (564, 'Kate Mara', '1983-02-27', 'Bedford, Nueva York', 165);
+
+-- Para The Crown (serie_id: 50000042)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 535
+    (566, 'Tobias Menzies', '1974-03-07', 'Londres, Reino Unido', 183),
+    -- cambio 43
+    (568, 'Josh O Connor', '1990-05-20', 'Southampton, Reino Unido', 175);
+
+-- Para Atlanta (serie_id: 50000043)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (569, 'Donald Glover', '1983-09-25', 'Edwards Air Force Base, California', 178),
+    (570, 'Brian Tyree Henry', '1982-03-31', 'Fayetteville, Carolina del Norte', 183),
+    (571, 'LaKeith Stanfield', '1991-08-12', 'San Bernardino, California', 188);
+    -- cambio 243
+
+-- Para Parks and Recreation (serie_id: 50000044)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (573, 'Amy Poehler', '1971-09-16', 'Burlington, Massachusetts', 163),
+    -- cambio 363
+    (575, 'Aziz Ansari', '1983-02-23', 'Columbia, Carolina del Sur', 170),
+    (576, 'Nick Offerman', '1970-06-26', 'Joliet, Illinois', 180);
+
+-- Para Dexter (serie_id: 50000045)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (577, 'Michael C. Hall', '1971-02-01', 'Raleigh, Carolina del Norte', 178),
+    (578, 'Jennifer Carpenter', '1979-12-07', 'Louisville, Kentucky', 168),
+    (579, 'David Zayas', '1962-08-15', 'Ponce, Puerto Rico', 175),
+    (580, 'James Remar', '1953-12-31', 'Boston, Massachusetts', 183);
+
+-- Para Daredevil (serie_id: 50000046)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (581, 'Charlie Cox', '1982-12-15', 'Londres, Reino Unido', 180),
+    (582, 'Vincent D Onofrio', '1959-06-30', 'Brooklyn, Nueva York', 188),
+    (583, 'Deborah Ann Woll', '1985-02-07', 'Brooklyn, Nueva York', 170),
+    (584, 'Elden Henson', '1977-08-30', 'Rockville, Maryland', 173);
+
+-- Para GenV (serie_id: 50000047)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (585, 'Jaz Sinclair', '1994-07-22', 'Texas, EE.UU', 180),
+    (586, 'Chance Perdomo', '1996-10-19', 'California, EE.UU', 188),
+    (587, 'Lizze Broadway', '1998-02-16', 'Ohio, EE.UU', 170),
+    (588, 'Maddie Phillips', '1994-09-06', 'Vancouver, Canada', 173);
+
+
+-- Para One Piece (serie_id: 50000048)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (589, 'Iñaki Godoy', '2003-08-25', 'Ciudad de Mexico, Mexico', 168),
+    (590, 'Emily Rudd', '1993-02-24', 'Minnesota, EE.UU', 165),
+    (591, 'Mackenyu', '1996-11-16', 'Tokio, Japón', 178),
+    (592, 'Vincent Regan', '1965-05-16', 'Swansea, Reino Unido', 173);
+
+-- Para Loki (serie_id: 50000049)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    (593, 'Tom Hiddleston', '1981-02-09', 'Westminster, Londres', 188),
+    (594, 'Owen Wilson', '1968-11-18', 'Dallas, Texas', 178),
+    (595, 'Gugu Mbatha-Raw', '1983-04-21', 'Oxford, Reino Unido', 170),
+    (596, 'Wunmi Mosaku', '1986-07-31', 'Zaira, Nigeria', 165);
+
+-- Para El Continental (serie_id: 50000050)
+INSERT INTO actores (actor_id, nombre, fecha_nacimiento, lugar_nacimiento, altura)
+VALUES
+    -- cambio 233
+    (598, 'Colin Woodell', '1991-12-20', 'California, EE.UU', 183),
+    (599, 'Mishel Prada', '1989-12-23', 'Florida, EE.UU', 170),
+    (600, 'Hubert Point-Du Jour', '1982-11-06', 'Nueva York, EE.UU', 175);

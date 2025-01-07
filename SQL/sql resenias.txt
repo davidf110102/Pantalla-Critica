@@ -1,0 +1,25 @@
+
+INSERT INTO resenias_peliculas (usuario_id_per, audiovisual_id_per, texto, fecha, cant_util, cant_no_util)
+SELECT
+    1 AS usuario_id_per,
+    pelicula_id AS audiovisual_id_per,
+    'La película es un emocionante viaje que combina una narrativa cautivadora con efectos visuales deslumbrantes. El director logra crear un universo convincente que, aunque lleno de peligros, también está repleto de asombrosas maravillas. Las actuaciones del elenco, lideradas por la talentosa protagonista, destacan al transmitir la complejidad emocional de los personajes en este entorno. La trama mantiene a los espectadores intrigados mientras explora diversos temas.' AS texto,
+    CURDATE() AS fecha,
+    1 AS cant_util,
+    0 AS cant_no_util
+FROM peliculas;
+
+INSERT INTO resenias_series (usuario_id_per, audiovisual_id_per, texto, fecha, cant_util)
+SELECT
+    1 AS usuario_id_per,
+    serie_id AS audiovisual_id_per,
+    'La serie es un fascinante recorrido por un universo lleno de misterios y maravillas. El creador logra plasmar un entorno convincente, donde las amenazas y las maravillas coexisten en armonía. Las actuaciones del elenco, especialmente la talentosa protagonista, destacan al transmitir la riqueza emocional de los personajes en este escenario único. La serie explora temas intrigantes que mantienen a los espectadores cautivados a lo largo de la trama.' AS texto,
+    CURDATE() AS fecha,
+    1 AS cant_util
+FROM series;
+
+
+
+
+
+
